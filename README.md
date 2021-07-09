@@ -6,5 +6,6 @@ We chose this topic not only because it is one of the current real-world matters
 In addition, these dataset is large and include many different variables, and by analyzing these data, we can analyze the impact of different variables on vaccine side effects. Through machine learning of the dataset, we expect to predict whether a person will have an adverse reaction after a vaccination base on some personal information.
 
 ## Data Sources
-The Covid-19 Vaccine Adverse Reaction (VAERS) dataset can be accessed from the [Kaggle website]( https://www.kaggle.com/landfallmotto/covid19-vaccine-adverse-reactions-vaers-dataset). 
+The Covid-19 Vaccine Adverse Reaction (VAERS) dataset can be accessed from the [Kaggle website]( https://www.kaggle.com/landfallmotto/covid19-vaccine-adverse-reactions-vaers-dataset). This data includes the status of vaccination by state in the United States from January 2021 to July 2021. It’s a large dataset containing 52 columns and 545092 rows. The dataset contains useful information such as patient age, adverse symptoms, vaccine name and some other variables such as allergy. The raw dataset contains a considerable number of null values that need to be cleaned before analysis.
+
 
