@@ -1,30 +1,30 @@
-# COVID-19_Vaccine_Adverse_Reactions
-A. Topic: COVID-19 Vaccine Adverse Reactions (VAERS) Dataset 
 
-Reason: 
-its one of the current real world affair and there is a need in the market for vaccine efficacy and build a trust
-It’s a large dataset with a lot of raw data for us to prune
+### Data Analytics Boot Camp Final Project
 
-Source: Kaggle data set, survey COVID-19 Vaccine Reactions Data Jan 2021 - July 2021, This is US across various states 
+## Covid 19 Vaccine Reaction Prediction
+### Using the Kaggle Covid dataset, our team will identify insights from Pfizer/BionTech, Moderna and J&J Vaccines Reactions Data Jan 2021 - July 2021. 
 
-Questions: 
-1. Group symptoms identify correlations amongst other variables / features 
-- Vaccine fatality rate  / reactions
--  Gender wise effectiveness
--  Age group analysis / symptoms
-- top symptoms
-Predictions based on various features
 
-B. Github: 
-1. COVID-19_Vaccine_Adverse_Reactions
-2. Read Me: 
-- create branches
-- each team to have four commits
-- communication: slack / whatsapp / MS teams
+## Rationale:
+### We want to present the insights from one of the one of the toughest phase the world is going through currently by analysing the Covid 19 vaccine data, predict the reactions of various vaccines as per age group, gender and other influencing features
 
-C. Machine Learning Model
-- Create Jupyter notebook , read the dataset and create dataframe
-- connected to database- just the csv file 
-- Tools uses: Jupyer notebook, Machine learning model, Tableau, Plotly graphs
 
-D. Database: - Sample data included 
+## Data Sets
+
+Kaggle data set, survey COVID-19 Vaccine Reactions Data Jan 2021 - July 2021, This is US across various states 
+
+## Github repository name: COVID-19_Vaccine_Adverse_Reactions
+## Communication: slack / whatsapp / MS teams
+
+## Technology stack
+### Data Cleaning and Analysis
+Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
+### Database Storage
+Mongo is the database we intend to use, and we will integrate Flask to display the data.
+### Machine Learning
+SciKitLearn is the ML library we'll be using to create a classifier. 
+### Dashboard
+In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. 
+
+#### Sample data set is uploaded
+
