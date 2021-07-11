@@ -1,4 +1,4 @@
-# COVID-19_Vaccine_Adverse_Reactions
+# Banking-Dataset-MarketingTargetsPrediction
 
 ## Overview
 A term deposit is a deposit account at a financial institution in which funds are blocked for a period of time, ranging from months to years. Term deposits typically offer higher interest rates than traditional liquid savings accounts, where customers can withdraw their money at any time.
