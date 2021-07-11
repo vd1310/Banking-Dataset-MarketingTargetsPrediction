@@ -27,7 +27,7 @@ Secondary Goal(s)
 
 ## Communication Protocols
 
-Group communication will be located on a Slack group that each member will join. Any updates or changes throughout the project will be posted in this group chat. Additionally members will be able to direct message any other member of the group in order to ask them questions or make comments about the project, the data or the work.
+Group communication will be located on a Slack group that each member will join. Any updates or changes throughout the project will be posted in this group chat. Additionally members will be able to direct message any other member of the group in order to ask them questions or make comments about the project, the data or the work. Microsoft Teams and WhatsApp are used to communicate between members.
 
 ## Github Branch System
 
