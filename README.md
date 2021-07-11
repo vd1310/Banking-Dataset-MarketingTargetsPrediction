@@ -10,13 +10,13 @@ Every business has a limited marketing budget. Therefore it's vital that each do
 
 The motivation behind the topic is to determine if marketing campaigns through phone calls is an effective use of marketing spend by companies such as a bank or large institution. This could also shed light on why so many people recieve fraudulent phone calls of people claiming to be from IRS/CRA demanding money. If phone campaigns are truly effective, then one would expect to continue receiving fraudulent calls.
 
-### Data background
+### Data Background
 
 The data was pulled from the [UCI Machine learning repository](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing). The data was gathered from marketing campaigns a Portuguese banking institution implemented through phone calls.
 
 Source: [Moro et al., 2014] S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, Elsevier, 62:22-31, June 2014
 
-### Questions to answer
+### Questions to Answer
 
 Primary Goal:
 - To determine whether or not a bank client would be interested in a term deposit subscription based on their profile and past history with the bank. This will enable the bank to better target their phone based marketing efforts towards clients who would be open to a term deposit subscription.
