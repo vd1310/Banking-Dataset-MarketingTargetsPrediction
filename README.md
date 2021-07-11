@@ -1,11 +1,9 @@
 # COVID-19_Vaccine_Adverse_Reactions
 
-## Reason
-We chose this topic not only because it is one of the current real-world matters, but also because vaccines are being heavily promoted and more and more people are getting at least one dose of vaccine. There is a demand in the market for the efficacy of vaccines and to build a trust. If we could learn more about the causes of vaccine side effects, we would be able to promote vaccines better.
-
-In addition, these dataset is large and include many different variables, and by analyzing these data, we can analyze the impact of different variables on vaccine side effects. Through machine learning of the dataset, we expect to predict whether a person will have an adverse reaction after a vaccination base on some personal information.
+## Overview
+A term deposit is a deposit account at a financial institution in which funds are blocked for a period of time, ranging from months to years. Term deposits typically offer higher interest rates than traditional liquid savings accounts, where customers can withdraw their money at any time.
+When the account holder deposits funds with the bank, it can use them to lend to other consumers or businesses. To encourage customers to deposit money in the bank, the bank will pay interest to the depositor accordingly. With most deposit accounts of this type, the owner can withdraw the money at any time. This makes it difficult for banks to know in advance how much money they can lend.To overcome this problem, banks offer term deposit accounts. Customers deposit or invest in these accounts, agreeing not to withdraw their money for a period of time in order to hold a higher interest rate. 
+Term deposits are one of the major ways for banks to generate revenue, and by using data analytics, machine learning to predict the likelihood that a potential customer will accept a term deposit can further increase banks' success rate in marketing them.
 
 ## Data Sources
-The Covid-19 Vaccine Adverse Reaction (VAERS) dataset can be accessed from the [Kaggle website]( https://www.kaggle.com/landfallmotto/covid19-vaccine-adverse-reactions-vaers-dataset). This data includes the status of vaccination by state in the United States from January 2021 to July 2021. It’s a large dataset containing 52 columns and 545092 rows. The dataset contains useful information such as patient age, adverse symptoms, vaccine name and some other variables such as allergy. The raw dataset contains a considerable number of null values that need to be cleaned before analysis.
-
-
+The Banking Dataset can be accessed from [Kaggle Website]( https://www.kaggle.com/prakharrathi25/banking-dataset-marketing-targets). 
