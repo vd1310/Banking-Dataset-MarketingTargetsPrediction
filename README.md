@@ -29,7 +29,7 @@ Secondary Goal(s)
 
 Group communication will be located on a Slack group that each member will join. Any updates or changes throughout the project will be posted in this group chat. Additionally members will be able to direct message any other member of the group in order to ask them questions or make comments about the project, the data or the work.
 
-## Github branch system
+## Github Branch System
 
 Each member of the group will maintain their own branch to do their work in. Members can create new branches to outline specific work they are doing. For example, a branch name could be "Andrew_Tam_seg1_model" to illustrate Andrew is working on the branch which contains the work for the machine learning model and is intended for segment 1.
 
