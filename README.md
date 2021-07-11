@@ -4,7 +4,7 @@
 
 ### Topic
 
-Every business has a limited marketing budget. Therefore it's vital that each dollar is spent in the most efficient way possible. In a bank's case, it's necessary to determine which of their clients will be receptive to phone marketing campaigns regarding the bank's financial services, specifically term deposits. Term deposits are similar to GICs, where a client will give the bank money in exchange for the money plus interest after a fixed period of time. During this time, the client is unable to withdraw their money.
+Every business has a limited marketing budget. Therefore it's vital that each dollar is spent in the most efficient way possible. In a bank's case, it's necessary to determine which of their clients will be receptive to phone marketing campaigns regarding the bank's financial services, specifically term deposits. Term deposits are similar to GICs, where a client will give the bank money in exchange for the money plus interest after a fixed period of time. During this time, the client is unable to withdraw their 
 
 ### Motivation
 
