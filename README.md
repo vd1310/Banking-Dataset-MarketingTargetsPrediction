@@ -1,18 +1,15 @@
 
-## Data Analytics Boot Camp Final Project
-
-### Covid 19 Vaccine Reaction Prediction
-Using the Kaggle Covid dataset, our team will identify insights from Pfizer/BionTech, Moderna and J&J Vaccines Reactions Data Jan 2021 - July 2021. 
+## Banking-Dataset-MarketingTargetsPredictionct
+Using the Kaggle Banking Dataset, our team will identify insights from the avaialable banking dataset.
 
 
 ### Rationale:
-We want to present the insights from one of the one of the toughest phase the world is going through currently by analysing the Covid 19 vaccine data, predict the reactions of various vaccines as per age group, gender and other influencing features
+Term deposits are a major source of income for a bank and hence it is crucial to identify the customers most likely to convert beforehand for term deposits so that they can be specifically targeted via call.
 
+### Data Set Source
+Kaggle data set, Banking Dataset - Marketing Targets (https://www.kaggle.com/prakharrathi25/banking-dataset-marketing-targets). The data is related to the direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed by the customer or not
 
-### Data Set
-Kaggle data set, survey COVID-19 Vaccine Reactions Data Jan 2021 - July 2021, This is US across various states 
-
-#### Github repository name: COVID-19_Vaccine_Adverse_Reactions
+#### Github repository name: Banking-Dataset-MarketingTargetsPrediction
 #### Communication: slack / whatsapp / MS teams
 
 ### Technology stack
