@@ -12,8 +12,8 @@ We want to present the insights from one of the one of the toughest phase the wo
 ### Data Set
 Kaggle data set, survey COVID-19 Vaccine Reactions Data Jan 2021 - July 2021, This is US across various states 
 
-### Github repository name: COVID-19_Vaccine_Adverse_Reactions
-### Communication: slack / whatsapp / MS teams
+#### Github repository name: COVID-19_Vaccine_Adverse_Reactions
+#### Communication: slack / whatsapp / MS teams
 
 ### Technology stack
 #### Data Cleaning and Analysis
@@ -22,8 +22,8 @@ Pandas will be used to clean the data and perform an exploratory analysis. Furth
 Mongo is the database we intend to use, and we will integrate Flask to display the data.
 #### Machine Learning
 SciKitLearn is the ML library we'll be using to create a classifier. 
-#### Dashboard
-In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. 
+####git sts Dashboard
+In addition to using a Flask template, we will also integrate D3.js / tableau for a fully functioning and interactive dashboard. 
 
 #### Sample data set is uploaded
 
