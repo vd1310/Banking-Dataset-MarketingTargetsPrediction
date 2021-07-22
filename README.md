@@ -1,4 +1,3 @@
-
 # Data Analytics Boot Camp Final Project
 
 ## Presentation
@@ -37,4 +36,3 @@ Each member of the group will maintain their own branch to do their work in. Mem
 ## Technology
 
 See the *technology.md* file in the repo.
-
