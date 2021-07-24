@@ -30,7 +30,6 @@ Secondary Goal(s)
 The purpose of our machine learning is to analyse the data and identify patterns based on which we could make predictions on new data. Here the marketing data (referred to above) was split into two; train(45,211) and test(4,521) randomly selected points. 
 - SMOTE algorithm is used to fit the model. This reduces the risk of oversampling by increasing the minority class.
 - GradientBoostingClassifier boosting method is used to progressively reduce errors to the barest minimum
-- Accuray scores of 0.871 (training) and 0.867 (validation) was achieved
 
 ## Communication Protocols
 
