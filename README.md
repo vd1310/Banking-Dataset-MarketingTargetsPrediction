@@ -37,7 +37,17 @@ The purpose of our machine learning is to analyse the data and identify patterns
 - Classification report
 <img width="755" alt="Classification_report" src="https://user-images.githubusercontent.com/79673198/126875138-78b89490-2e69-4354-a23e-cc0ba283f2e2.png">
 
+## Database
 
+We have chosen to use PostgreSQL as our database to store static data for our project. We chose PostgresSQL because it is a powerful, open source object-relational database system. We have two tables stored in our database: 
+<li> Contact </li>
+<li> Bank </li>
+The following ERD describes the relationship between our two tables:
+<p align="center"
+
+![alttext](https://github.com/vd1310/Banking-Dataset-MarketingTargetsPrediction/blob/main/Database/erd_backup.PNG)
+
+</p>
 ## Communication Protocols
 
 Group communication will be located on a Slack group that each member will join. Any updates or changes throughout the project will be posted in this group chat. Additionally members will be able to direct message any other member of the group in order to ask them questions or make comments about the project, the data or the work. Microsoft Teams and WhatsApp are used to communicate between members.
