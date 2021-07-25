@@ -42,12 +42,34 @@ The purpose of our machine learning is to analyse the data and identify patterns
 We have chosen to use PostgreSQL as our database to store static data for our project. We chose PostgresSQL because it is a powerful, open source object-relational database system. We have two tables stored in our database: 
 <li> Contact </li>
 <li> Bank </li>
-The following ERD describes the relationship between our two tables:
+
+### Contact
+
+The contact table data includes:
+<li>Day</li>
+<li>Month</li> 
+<li>Duration</li>
+
+### Bank
+
+The Bank table data includes :
+<li>Age</li>
+<li>Job</li
+<li>Marital Status</li>
+<li>Education</li>
+<li>Default</li>
+<li>Balance</li>
+<li>Housing</li>
+<li>Loan</li>
+
+The following entity relationship diagram (ERD) describes the relationship between our two tables:
 <p align="center"
 
 ![alttext](https://github.com/vd1310/Banking-Dataset-MarketingTargetsPrediction/blob/main/Database/erd_backup.PNG)
 
 </p>
+
+
 ## Communication Protocols
 
 Group communication will be located on a Slack group that each member will join. Any updates or changes throughout the project will be posted in this group chat. Additionally members will be able to direct message any other member of the group in order to ask them questions or make comments about the project, the data or the work. Microsoft Teams and WhatsApp are used to communicate between members.
