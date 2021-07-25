@@ -43,15 +43,21 @@ We have chosen to use PostgreSQL as our database to store static data for our pr
 <li> Contact </li>
 <li> Bank </li>
 
-
+<br>
 The following entity relationship diagram (ERD) describes the relationship between our two tables:
 <p align="center"
 
 ![alttext](https://github.com/vd1310/Banking-Dataset-MarketingTargetsPrediction/blob/main/Database/erd_backup.PNG)
 
 </p>
-
-
+<br>
+In order to join and import the data sets we used the following code:
+```
+imported_bank_df = pd.read_sql('bank', con=engine)
+imported_contact_df = pd.read_sql('contact', con=engine)
+imported_full_df = pd.read_sql("SELECT * FROM bank JOIN contact ON contact.index = bank.index;",
+                               con=engine).drop(["index"], axis=1)
+```
 ## Communication Protocols
 
 Group communication will be located on a Slack group that each member will join. Any updates or changes throughout the project will be posted in this group chat. Additionally members will be able to direct message any other member of the group in order to ask them questions or make comments about the project, the data or the work. Microsoft Teams and WhatsApp are used to communicate between members.
