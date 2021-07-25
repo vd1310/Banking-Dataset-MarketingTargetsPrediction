@@ -10,13 +10,13 @@ Every business has a limited marketing budget. Therefore it's vital that each do
 
 The motivation behind the topic is to determine if marketing campaigns through phone calls is an effective use of marketing spend by companies such as a bank or large institution. This could also shed light on why so many people recieve fraudulent phone calls of people claiming to be from IRS/CRA demanding money. If phone campaigns are truly effective, then one would expect to continue receiving fraudulent calls.
 
-### Data Background
+### Data background
 
 The data was pulled from the [UCI Machine learning repository](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing). The data was gathered from marketing campaigns a Portuguese banking institution implemented through phone calls.
 
 Source: [Moro et al., 2014] S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, Elsevier, 62:22-31, June 2014
 
-### Questions to Answer
+### Questions to answer
 
 Primary Goal:
 - To determine whether or not a bank client would be interested in a term deposit subscription based on their profile and past history with the bank. This will enable the bank to better target their phone based marketing efforts towards clients who would be open to a term deposit subscription.
@@ -29,10 +29,18 @@ Secondary Goal(s)
 
 Group communication will be located on a Slack group that each member will join. Any updates or changes throughout the project will be posted in this group chat. Additionally members will be able to direct message any other member of the group in order to ask them questions or make comments about the project, the data or the work.
 
-## Github Branch System
+## Github branch system
 
 Each member of the group will maintain their own branch to do their work in. Members can create new branches to outline specific work they are doing. For example, a branch name could be "Andrew_Tam_seg1_model" to illustrate Andrew is working on the branch which contains the work for the machine learning model and is intended for segment 1.
 
 ## Technology
 
 See the *technology.md* file in the repo.
+
+### Machine Learning Model
+
+See the *Bank_Marketing_Analysis.ipynb* for the explanation.
+
+### Database
+
+See the *Bank_Marketing_Analysis.ipynb* for the explanation, the JOIN query and interfacing with the python project. The ERD diagram is in *project.pgerd* or *erd_backup.PNG*. The SQL script to create the tables can be found at *create_table.sql*.
