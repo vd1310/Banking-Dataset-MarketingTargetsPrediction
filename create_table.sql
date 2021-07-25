@@ -1,6 +1,5 @@
-
-CREATE TABLE public.bank (
-    index bigint primary key,
+CREATE TABLE bank (
+    index bigint,
     age integer,
     job text,
     marital text,
@@ -9,13 +8,24 @@ CREATE TABLE public.bank (
     balance double precision,
     housing boolean,
     loan boolean,
-    contact text,
-    day integer,
-    month text,
-    duration integer,
     campaign integer,
     pdays integer,
     previous integer,
     poutcome text,
-    y boolean
+    y boolean,
+    pdays_bool boolean,
+    PRIMARY KEY(index)
+);
+
+
+CREATE TABLE contact (
+    index bigint,
+    contact text,
+    day integer,
+    month text,
+    duration integer,
+    PRIMARY KEY(index),
+    CONSTRAINT fk_bank
+        FOREIGN KEY(index)
+            REFERENCES bank(index)
 );
