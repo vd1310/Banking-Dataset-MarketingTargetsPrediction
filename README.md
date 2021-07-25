@@ -43,24 +43,6 @@ We have chosen to use PostgreSQL as our database to store static data for our pr
 <li> Contact </li>
 <li> Bank </li>
 
-### Contact
-
-The contact table data includes:
-<li>Day</li>
-<li>Month</li> 
-<li>Duration</li>
-
-### Bank
-
-The Bank table data includes :
-<li>Age</li>
-<li>Job</li
-<li>Marital Status</li>
-<li>Education</li>
-<li>Default</li>
-<li>Balance</li>
-<li>Housing</li>
-<li>Loan</li>
 
 The following entity relationship diagram (ERD) describes the relationship between our two tables:
 <p align="center"
