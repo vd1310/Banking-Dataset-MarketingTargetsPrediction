@@ -51,13 +51,17 @@ The following entity relationship diagram (ERD) describes the relationship betwe
 
 </p>
 <br>
-In order to join and import the data sets we used the following code:
+We used the follwing code to join and import the datasets from the database:
+
 ```
 imported_bank_df = pd.read_sql('bank', con=engine)
 imported_contact_df = pd.read_sql('contact', con=engine)
 imported_full_df = pd.read_sql("SELECT * FROM bank JOIN contact ON contact.index = bank.index;",
                                con=engine).drop(["index"], axis=1)
 ```
+
+
+
 ## Communication Protocols
 
 Group communication will be located on a Slack group that each member will join. Any updates or changes throughout the project will be posted in this group chat. Additionally members will be able to direct message any other member of the group in order to ask them questions or make comments about the project, the data or the work. Microsoft Teams and WhatsApp are used to communicate between members.
