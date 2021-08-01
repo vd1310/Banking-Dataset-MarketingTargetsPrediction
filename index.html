@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="static/css/style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav class="navbar navbar-light fixed-top bg-darkred navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">Bank Marketing</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#model">Model</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#background">Background and Motivation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#results">Results</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#analysis">Analysis</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#data">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="jumbotron" id="home">
+            <h1 class="display-4 title-text">
+                Bank Marketing Analysis
+            </h1>
+        </div>
+        <div class="container-fluid" id="model">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Interactive Model</h3>
+                </div>
+                <div class="col-md-9">
+                    <form id="interactivemodel" class="list-group">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <label for="date">Age: </label>
+                                <input type="text" placeholder="" id="age" name="age"/>
+                            </li>
+                            <li class="list-group-item">
+                                <label for="city">Balance: </label>
+                                <input type="text" placeholder="" id="balance" name="balance"/>
+                            </li>
+                            <li class="list-group-item">
+                                <label for="state">Default: </label>
+                                <input type="text" placeholder="" id="default" name="default"/>
+                            </li>
+                            <li class="list-group-item">
+                                <label for="country">Education: </label>
+                                <input type="text" placeholder="" id="education" name="education"/>
+                            </li>
+                            <li class="list-group-item">
+                                <label for="shape">Housing: </label>
+                                <input type="text" placeholder="" id="housing" name="housing"/>
+                            </li>
+                            <li class="list-group-item">
+                                <label for="shape">Job: </label>
+                                <input type="text" placeholder="" id="job" name="job"/>
+                            </li>
+                            <li class="list-group-item">
+                                <label for="shape">Loan: </label>
+                                <input type="text" placeholder="" id="loan" name="loan"/>
+                            </li>
+                            <li class="list-group-item">
+                                <label for="shape">Marital: </label>
+                                <input type="text" placeholder="" id="marital" name="marital"/>
+                            </li>
+                            <li class="list-group-item">
+                                <input type="submit" value="Submit" />
+                            </li>
+                        </ul>
+                    </form>
+                    <h1 class="model-answer"></h1>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="background">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Background and Motivation</h3>
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        Every business has a limited marketing budget. Therefore it's vital that each dollar is spent in the most efficient way possible. In a bank's case, it's necessary to determine which of their clients will be receptive to phone marketing campaigns regarding the bank's financial services, specifically term deposits. Term deposits are similar to GICs, where a client will give the bank money in exchange for the money plus interest after a fixed period of time. During this time, the client is unable to withdraw their money.
+                    </p>
+                    <p>
+                        The motivation behind the topic is to determine if marketing campaigns through phone calls is an effective use of marketing spend by companies such as a bank or large institution. This could also shed light on why so many people receive fraudulent phone calls of people claiming to be from IRS/CRA demanding money. If phone campaigns are truly effective, then one would expect to continue receiving fraudulent calls.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="analysis">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Analysis</h3>
+                </div>
+                <div class="col-md-9">
+                    <p>
+                        There is no strong correlation aside from the relationship within a category such as job or past outcome variables. There is weak relationship between job and education as well as between marital status and age. This follows since only certain jobs are avaiable to those with a stronger education background. Additionally, marital status is typically changed the second quarter of life. 
+                    </p>
+                    <p>
+                        <img src="static/images/correlation.png">
+                    </p>
+                    <p>
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="results">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Results</h3>
+                </div>
+                <div class="col-md-9">
+                    <h1>Accuracy</h1>
+                    <h2>88%</h2>
+                    <p>
+                        The most important features are the participants job, education and martial status. Past campaign participation also gives a strong indication of outcome.
+                    </p>
+                    <p>
+                        <img src="static/images/features.png">
+                    </p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1>Precision</h1>
+                            <h2>52%</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <h1>Recall</h1>
+                            <h2>24%</h2>
+                        </div>
+                    </div>
+                    <p>
+                        While the precision and recall is poor, the model still serves as a meaningful filter for possible targets of a Term Deposit marketing campaign.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="data">
+            <div class="row">
+                <div class="col-md-3">
+                    <h3>Data</h3>
+                    <p>Only 400 rows are used for performance reasons</p>
+                    <form class="list-group">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <label for="date">Age: </label>
+                                <input class="datafilter" type="text" placeholder="" id="age" />
+                            </li>
+                            <li class="list-group-item">
+                                <label for="city">Balance: </label>
+                                <input class="datafilter" type="text" placeholder="" id="balance" />
+                            </li>
+                            <li class="list-group-item">
+                                <label for="state">Default: </label>
+                                <input class="datafilter" type="text" placeholder="" id="default" />
+                            </li>
+                            <li class="list-group-item">
+                                <label for="country">Education: </label>
+                                <input class="datafilter" type="text" placeholder="" id="education" />
+                            </li>
+                            <li class="list-group-item">
+                                <label for="shape">Housing: </label>
+                                <input class="datafilter" type="text" placeholder="" id="housing" />
+                            </li>
+                            <li class="list-group-item">
+                                <label for="shape">Job: </label>
+                                <input class="datafilter" type="text" placeholder="" id="job" />
+                            </li>
+                            <li class="list-group-item">
+                                <label for="shape">Loan: </label>
+                                <input class="datafilter" type="text" placeholder="" id="loan" />
+                            </li>
+                            <li class="list-group-item">
+                                <label for="shape">Marital: </label>
+                                <input class="datafilter" type="text" placeholder="" id="marital" />
+                            </li>
+
+                            <li class="list-group-item">
+                                <button id="filter-btn" type="button" class="btn btn-dark">
+                                    Filter Table
+                                </button>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="col-md-9">
+                    <ul class="list-group table-wrapper">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Age</th>
+                                    <th>Balance</th>
+                                    <th>Campaign</th>
+                                    <th>Contact</th>
+                                    <th>Day</th>
+                                    <th>Default</th>
+                                    <th>Duration</th>
+                                    <th>Education</th>
+                                    <th>Housing</th>
+                                    <th>Job</th>
+                                    <th>Loan</th>
+                                    <th>Marital</th>
+                                    <th>Month</th>
+                                    <th>pdays</th>
+                                    <th>pdays bool</th>
+                                    <th>poutcome</th>
+                                    <th>previous</th>
+                                    <th>y</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var data = {{ data|tojson }};
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/app.js"></script>
+    <script src="static/js/model.js"></script>
+</body>
+
+</html>
