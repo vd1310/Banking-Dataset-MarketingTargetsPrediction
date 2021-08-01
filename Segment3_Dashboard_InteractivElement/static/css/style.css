@@ -1,0 +1,13 @@
+body {
+
+    color: #f5f0f0;
+  }
+  .jumbotron {
+    background-image: url("images/banking.jpeg");
+    background-size: 100% 100%;
+    text-align: center;
+  }
+  .bg-dark {
+    font-family: inherit; 
+    font-size: 1rem;
+  }
