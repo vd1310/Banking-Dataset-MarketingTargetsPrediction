@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/css/style.css"/>
+</head>
+<body class="bg-dark">
+    <div class="wrapper">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">Bank Marketing Data</a>
+        </nav>
+        <div class="jumbotron">
+            <h1 class="display-4">Banking Data Analysis</h1>   
+        </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h3>Initial Analysis: <small>Machine Learning Results</small></h3>
+                    </div>
+                    <div class="col-md-8">
+                        <p>
+                            The purpose of our machine learning is to analyse the data and identify patterns based on which we could make predictions on new data. Here the marketing data (referred to above) was split into two; train(45,211) and test(4,521) randomly selected points. <br>
+                            1. SMOTE algorithm is used to fit the model. This reduces the risk of oversampling by increasing the minority class.<br>
+                            2. GradientBoostingClassifier boosting method is used to progressively reduce errors to the barest minimum<br>
+                            3. Accuracy scores of 0.871 (training) and 0.867 (validation) was achieved using the learning rate of 0.5<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="custom-select" style="width:200px;">
+                            <select id="mySelect" onchange="myFunction()">
+                                <option value="DataExploration">Data Exploration</option>
+                                <option value="Age">Age</option>
+                                <option value="Job">Job</option>
+                                <option value="Marital">Marital</option>
+                                <option value="Default">Default</option>
+                                <option value="Balance">Balance</option>
+                                <option value="Housing">Housing</option>
+                                <option value="Loan">Loan</option>
+                                <option value="Contact">Contact</option>
+                                <option value="Day">Day</option>
+                                <option value="Month">Month</option>
+                                <option value="Duration">Duration</option>
+                                <option value="Campaign">Campaign</option>
+                                <option value="pdays">pdays</option>
+                                <option value="Previous">Previous</option>
+                                <option value="poutcome">poutcome</option>
+                                <option value="Result">Result</option>
+                              </select>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <p>When you select a feature, a function is triggered which outputs the image and description of the selected feature.</p>
+                        <div>
+                            <h4 id = "title"></h4>
+                            <p id="demo"></p>
+                            <img id="myImage" src="image/DataExploration.png" style="width: 800px">
+                        </div>
+                        
+                    
+                              
+                    </div>
+                </div>
+            </div>
+     </div>   
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mySelect").value;
+            if(x == "DataExploration"){
+                document.getElementById("title").innerHTML = "Data Exploration";
+                document.getElementById("demo").innerHTML = "Balance: Outliers on negative and positive end";
+                document.getElementById('myImage').src='image/DataExploration.png';
+            }else if(x == "Age"){
+                document.getElementById("title").innerHTML = "Age Analysis";
+                document.getElementById("demo").innerHTML = "Most participants are between 20-50 years old ";
+                document.getElementById('myImage').src='image/age.png';
+            }else if(x == "Job"){
+                document.getElementById("title").innerHTML = "Job analysis";
+                document.getElementById("demo").innerHTML = "Description of selected graph ";
+                document.getElementById('myImage').src='image/Job.png';
+            }else if(x == "Marital"){
+                document.getElementById("title").innerHTML = "Marital Status";
+                document.getElementById("demo").innerHTML = "Description of selected graph ";
+                document.getElementById('myImage').src='image/Marital.png';
+            }else if(x == "Default"){
+                document.getElementById("title").innerHTML = "Default";
+                document.getElementById("demo").innerHTML = "Default: User has credit in default<br> - Almost no one has defaulted ";
+                document.getElementById('myImage').src='image/default.png';
+            }else if(x == "Balance"){
+                document.getElementById("title").innerHTML = "Balance";
+                document.getElementById("demo").innerHTML = "Most people have less than $1500 in their bank account ";
+                document.getElementById('myImage').src='image/balance.png';
+            }else if(x == "Housing"){
+                document.getElementById("title").innerHTML = "Housing Information";
+                document.getElementById("demo").innerHTML = "Little more than half of the participants have a housing loan ";
+                document.getElementById('myImage').src='image/Housing.png';
+            }else if(x == "Loan"){
+                document.getElementById("title").innerHTML = "Loan Status";
+                document.getElementById("demo").innerHTML = "Has a personal loan -20% of participants have personal loan ";
+                document.getElementById('myImage').src='image/loan.png';
+            }else if(x == "Contact"){
+                document.getElementById("title").innerHTML = "Contact Information";
+                document.getElementById("demo").innerHTML = "Description of selected graph ";
+                document.getElementById('myImage').src='image/Contact.png';
+            }else if(x == "Day"){
+                document.getElementById("title").innerHTML = "Day";
+                document.getElementById("demo").innerHTML = "No specific day was favored for contact during campaign ";
+                document.getElementById('myImage').src='image/day.png';
+            }else if(x == "Month"){
+                document.getElementById("title").innerHTML = "Month";
+                document.getElementById("demo").innerHTML = "Campaign was held primarily during the summer ";
+                document.getElementById('myImage').src='image/month.png';
+            }else if(x == "Duration"){
+                document.getElementById("title").innerHTML = "Duration";
+                document.getElementById("demo").innerHTML = "Duration: seconds before end of day when contacted during campaign<br> - Majority of contancts were around the same time of day ";
+                document.getElementById('myImage').src='image/duration.png';
+            }else if(x == "Campaign"){
+                document.getElementById("title").innerHTML = "Campaign";
+                document.getElementById("demo").innerHTML = "Description of selected graph ";
+                document.getElementById('myImage').src='image/acampaign.png';
+            }else if(x == "Pdays"){
+                document.getElementById("title").innerHTML = "Pdaysh";
+                document.getElementById("demo").innerHTML = "Whether the participant was selected in a past campaign<br> - Most people was not contacted in a past campaign ";
+                document.getElementById('myImage').src='image/pdays.png';
+            }else if(x == "previous"){
+                document.getElementById("title").innerHTML = "Previous Result";
+                document.getElementById("demo").innerHTML = "Description of selected graph ";
+                document.getElementById('myImage').src='image/Previous.png';
+            }else if(x == "poutcome"){
+                document.getElementById("title").innerHTML = "Previous Outcome";
+                document.getElementById("demo").innerHTML = "Description of selected graph ";
+                document.getElementById('myImage').src='image/poutcome.png';
+            }else {
+                document.getElementById("title").innerHTML = "Result";
+                document.getElementById("demo").innerHTML = "Y: client has subscribed to term deposit<br> - A class imbalance between True and False is present ";
+                document.getElementById('myImage').src='image/y.png';
+            }
+
+        }
+    </script>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/output.js"></script>
+    <script src="static/js/app.js"></script>
+</body>
+
+</html>
