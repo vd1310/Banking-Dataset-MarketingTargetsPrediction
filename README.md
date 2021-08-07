@@ -34,8 +34,15 @@ The purpose of our machine learning is to analyse the data and identify patterns
 - Feature importances
 <img width="859" alt="Feature_importances" src="https://user-images.githubusercontent.com/79673198/126875102-a166e0ad-5050-48f8-aac5-4d8d2591b6a1.png">
 
+- Correlations show: y is not strongly correlated to any variable; Age is correlated with each of housing, marital status and being a student; Education is correlated with job
+<img width="954" alt="Heat_map" src="https://user-images.githubusercontent.com/79673198/128602181-1e5e17a0-88e3-4642-8b3a-550084a4522b.png">
+
+- Accuaracy and Confusion Matrix: Training and test sets have same accuracy (means no overfitting); False positives exceed true positives (wasted calling); False negatives exceed true positives (missing opprtunity) 
+<img width="477" alt="Accuracy_Confusion_Matrix" src="https://user-images.githubusercontent.com/79673198/128602232-5df5b806-9152-4391-a2be-511900b6fdbf.png">
+
 - Classification report
 <img width="755" alt="Classification_report" src="https://user-images.githubusercontent.com/79673198/126875138-78b89490-2e69-4354-a23e-cc0ba283f2e2.png">
+
 
 ## Database
 
